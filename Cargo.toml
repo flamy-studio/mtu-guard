@@ -1,0 +1,40 @@
+[package]
+name = "withen-mtu-guard"
+version = "0.3.0"
+edition = "2021"
+authors = ["Flamy Studio"]
+license = "Apache-2.0"
+description = "MTU Guard by Flamy Studio for Withen Network: AmneziaVPN IPv4 MTU service"
+repository = "https://git.flamy.studio/prod/Withen_MTU_Guard.git"
+readme = "README.md"
+keywords = ["windows", "vpn", "mtu", "amnezia", "service"]
+
+[[bin]]
+name = "withen-mtu-guard"
+path = "src/main.rs"
+
+[dependencies]
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61.2", features = [
+    "Win32_Foundation",
+    "Win32_NetworkManagement_IpHelper",
+    "Win32_NetworkManagement_Ndis",
+    "Win32_Networking_WinSock",
+] }
+windows-service = "0.8.1"
+
+[build-dependencies]
+winresource = "0.1.34"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+debug = true
+strip = "none"
+
+[package.metadata.docs]
+minimum_windows = "Windows 10 x64 (1809+)"
+target = "x86_64-pc-windows-msvc"

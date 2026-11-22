@@ -1,0 +1,17 @@
+/target/
+/dist/
+/release/
+/evidence/
+/test-results/
+*.exe
+*.pdb
+*.msi
+*.zip
+*.log
+*.dmp
+/SHA256SUMS.txt
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+[target.x86_64-pc-windows-msvc]
+# Ship the C runtime inside the executable; no VC++ Redistributable is required.
+# https://doc.rust-lang.org/reference/linkage.html#static-and-dynamic-c-runtimes
+rustflags = ["-C", "target-feature=+crt-static"]
