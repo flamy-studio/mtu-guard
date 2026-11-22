@@ -1,4 +1,4 @@
-MTU Guard — ручной инструмент 0.1 (кандидат для тестирования)
+MTU Guard — ручной инструмент 0.1 (TEST CANDIDATE)
 
 Разработчик и издатель: Flamy Studio — https://flamy.studio
 Заказчик: Withen Network — https://withen.pro
@@ -23,5 +23,5 @@ AMBIGUOUS — найдено несколько подходящих подкл�
 Не отключайте защиту Windows ради запуска утилиты.
 
 Подробная инструкция: docs\MANUAL_MTU.md.
-Исходники и сообщения о проблемах: https://git.flamy.studio/prod/Withen_MTU_Guard
+Исходники и сообщения о проблемах: https://github.com/flamy-studio/mtu-guard
 Лицензия Apache-2.0: LICENSE и NOTICE. Copyright 2026 Flamy Studio.

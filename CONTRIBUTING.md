@@ -4,7 +4,7 @@
 
 MTU Guard разработан и издаётся [Flamy Studio](https://flamy.studio) по заказу [Withen Network](https://withen.pro).
 Сборка, команды и устройство проекта: [DEVELOPMENT](docs/DEVELOPMENT.md).
-Основной репозиторий: https://git.flamy.studio/prod/Withen_MTU_Guard.
+Основной репозиторий: https://github.com/flamy-studio/mtu-guard.
 
 - Для каждого изменения нужен краткий issue/PR с описанием проблемы и воспроизведением.
 - Проверки Windows: `build.ps1` (форматирование без перезаписи, тесты, Clippy, release EXE/PDB и проверка ресурсов). Cargo-команды используют `--locked`; изменения `Cargo.lock` проверяются вместе с зависимостями.

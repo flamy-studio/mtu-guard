@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Flamy Studio"]
 license = "Apache-2.0"
 description = "MTU Guard by Flamy Studio for Withen Network: AmneziaVPN IPv4 MTU service"
-repository = "https://git.flamy.studio/prod/Withen_MTU_Guard.git"
+repository = "https://github.com/flamy-studio/mtu-guard.git"
 readme = "README.md"
 keywords = ["windows", "vpn", "mtu", "amnezia", "service"]
 
