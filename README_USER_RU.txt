@@ -8,8 +8,9 @@ MTU Guard помогает исправить проблему AmneziaVPN с о�
 подключения Withen Network, в том числе после переподключения VPN.
 Нужны 64-разрядная Windows и AmneziaVPN.
 Windows 11: VERIFIED / PASS — автоматический режим 0.3.0 проверен на двух ПК.
-Windows 10: EXPERIMENTAL — полевые испытания ещё не завершены.
-Ручной режим: TEST CANDIDATE — отдельная полевая приёмка ещё не завершена.
+Windows 10: VERIFIED / PASS — проверено на сборке 19045.
+Ручной режим 0.1: базовый пункт 2 — PASS по сообщению испытателя Windows 10;
+расширенные сценарии проверены частично.
 
 Автоматический вариант работает в фоне:
 1) Распакуйте готовый пакет целиком.
@@ -36,7 +37,9 @@ manual-check.cmd — только проверить, manual-mtu.cmd — про�
 Если Windows блокирует запуск, не отключайте защиту — сообщите в поддержку.
 PASS MTU не гарантирует доступность всех сайтов и приложений.
 
-Приёмка Windows 11: docs\FIELD_ACCEPTANCE_WINDOWS11_2026-11-22.md.
+Сводные результаты: docs\FIELD_ACCEPTANCE_SUMMARY_2026-11-23.md.
+Windows 10: docs\FIELD_ACCEPTANCE_WINDOWS10_2026-11-23.md.
+Windows 11: docs\FIELD_ACCEPTANCE_WINDOWS11_2026-11-22.md.
 Основная инструкция: README.md.
 Сборка и технические подробности: docs\DEVELOPMENT.md.
 Исходники и сообщения о проблемах: https://github.com/flamy-studio/mtu-guard

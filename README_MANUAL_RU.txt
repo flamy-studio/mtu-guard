@@ -1,4 +1,6 @@
-MTU Guard — ручной инструмент 0.1 (TEST CANDIDATE)
+MTU Guard — ручной инструмент 0.1
+Базовый пункт 2: PASS по отчёту испытателя Windows 10.
+Расширенные сценарии проверены частично; отдельного лога ручного запуска нет.
 
 Разработчик и издатель: Flamy Studio — https://flamy.studio
 Заказчик: Withen Network — https://withen.pro
